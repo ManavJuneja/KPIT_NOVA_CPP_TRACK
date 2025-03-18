@@ -15,7 +15,7 @@ class Human{
         *age = iage;
     }
     void display(){
-        cout<<"Hi i am "<<*name<<" and i am"<<*age<<" year old"<<endl;
+        cout<<"Hi i am "<<*name<<" and i am "<<*age<<" year old"<<endl;
     }
     ~Human(){
          delete name;
