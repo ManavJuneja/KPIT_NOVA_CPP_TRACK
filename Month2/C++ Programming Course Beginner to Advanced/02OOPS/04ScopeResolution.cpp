@@ -4,7 +4,7 @@ using namespace std;
 //Defining Method outside the class
 class HumanBeing{
     public:
-    string name;
+    string name;// string name = "no name";
     void introduce();//only Declaration
 };
 // :: Scope Resolution Operator

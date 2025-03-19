@@ -12,9 +12,9 @@ class Human{
         void humanTotal(){
             cout<<"There are "<<humnanCount<<endl;
         }
-
+        //Only use static member or static varible for static function
     static void humanCount(){
-        cout<<"There are "<<humnanCount<<"people are in this program "<<endl; 
+        cout<<"There are "<<humnanCount<<" people are in this program "<<endl; 
     }
 };
 int Human::humnanCount = 0;

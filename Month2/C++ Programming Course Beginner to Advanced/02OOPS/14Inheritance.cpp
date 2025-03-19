@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class Person{
+class Person{//Base class
     public:
     string name;
     int age;
@@ -15,7 +15,7 @@ class Person{
     }
 };
 
-class Student : public Person{
+class Student : public Person{//Sub class
     public:
     int id;
     Student(){}//Default Constructor

@@ -31,8 +31,13 @@ class Student{
 };
 int main(){
   Student s1;
+  Student *s2 = new Student;
+  (*s2).setName() = "Man";
+  (*s2).setAge() = 12;
+  
   s1.setName("Manav");
   s1.setAge(21);
+  
   cout<<s1.getName();
   cout<<s1.getAge();
 }

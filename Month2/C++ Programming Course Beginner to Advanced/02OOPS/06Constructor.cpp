@@ -16,7 +16,7 @@ class Human{
         }
         void display(){
             cout<<name<<endl<<age<<endl;
-        }
+        } 
 };
 int main(){
 
