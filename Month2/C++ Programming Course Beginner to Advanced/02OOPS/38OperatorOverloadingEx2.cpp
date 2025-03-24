@@ -3,7 +3,6 @@
 using namespace std;
 
 class Marks{
-    public:
     int marks;
     public:
     Marks(){

@@ -34,4 +34,12 @@ int main(){
     Liger x;
     x.walk();//got error that walk is ambiguous
     return 0;
+    /*
+    Output:
+    Animal Constructor
+    Lion Constructor
+    Tiger Constructor
+    Liger Constructor
+    animal walks
+    */
 }

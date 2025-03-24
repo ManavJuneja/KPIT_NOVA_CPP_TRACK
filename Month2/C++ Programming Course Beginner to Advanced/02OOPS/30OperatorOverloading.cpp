@@ -20,12 +20,6 @@ class Complex{
         temp.img = img + c.img;
         return temp;
     }
-    // Complex operator-(Complex &c){
-    //     Complex temp;
-    //     temp.real = real - c.real;
-    //     temp.img = img - c.img;
-    //     return temp;
-    // }
     Complex operator-(Complex &c);
    
 };
