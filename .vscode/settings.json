@@ -42,5 +42,7 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "D:/KPIT_Nova_Training_CPP_Track/Month2/CarFunctionalitySystem",
+    "cmake.useCMakePresets": "never"
 }
